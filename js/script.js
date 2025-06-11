@@ -5,6 +5,12 @@ $(document).ready(function(){
     $('#search-box').toggleClass('active');
   });
 
+$('.add-to-cart').click(function(e) {
+    e.preventDefault(); 
+
+    
+    window.location.href = "product-detail.html"; 
+});
   $('#menu').click(function(){
     $(this).toggleClass('fa-times');
     $('.navbar').toggleClass('nav-toggle');
